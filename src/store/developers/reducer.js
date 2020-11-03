@@ -15,7 +15,7 @@ const initialState = [
   {
     id: 3,
     name: "Irene",
-    website: "null",
+    website: null,
     favorites: [1, 2, 3, 6],
   },
   {

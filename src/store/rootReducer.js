@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
-import userReducer from "./user/reducer";
+import usersReducer from "./users/reducer";
 import resourcesReducer from "./resources/reducer";
 import developersReducer from "./developers/reducer";
 
 const reducer = combineReducers({
-  user: userReducer,
+  users: usersReducer,
   resources: resourcesReducer,
   developers: developersReducer,
 });
