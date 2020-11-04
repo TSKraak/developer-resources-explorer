@@ -1,0 +1,27 @@
+.resource-container {
+  border: solid 1px grey;
+  margin-top: 1rem;
+  margin-right: 40rem;
+  padding: 0.5rem;
+}
+
+.ResourcesSection .tag {
+  margin-right: 0.5rem;
+  padding: 1px 4px;
+  border-radius: 5px;
+  font-size: 0.85em;
+  border: 1px solid #ddd;
+  color: rgb(153, 151, 151);
+}
+
+.resource-url {
+  color: rgb(153, 151, 151);
+}
+
+.favorite-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.301);
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 50rem;
+}

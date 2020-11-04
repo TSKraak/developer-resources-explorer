@@ -46,6 +46,10 @@ const initialState = [
 
 export default function resourcesReducer(state = initialState, action) {
   switch (action.type) {
+    case "ADD_RESOURCE": {
+      return [...state, action.payload];
+    }
+
     default: {
       return state;
     }
